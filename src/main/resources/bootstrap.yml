@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: tst-mesh
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        namespace: public
+      config:
+        namespace: public
+        file-extension: yml
+        group: DEFAULT_GROUP
